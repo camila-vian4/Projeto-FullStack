@@ -2,10 +2,9 @@ import './style.css'
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className='footer'>
             <p>
-                &copy; {new Date().getFullYear()}
-                Meu projeto - Todos os direitos reservados.
+                &copy; {new Date().getFullYear()} - Todos os direitos reservados.
                 <br />
                 Desenvolvido por Camila Viana.
             </p>
